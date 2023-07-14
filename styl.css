@@ -1,0 +1,31 @@
+:root{
+    --color-primary:rgb(17, 171, 243);
+    --color-secondary:black;
+    --collor-text:rgb(110, 110, 110);
+
+    --font-primary:'Open Sans';
+    --font-size-text:15px;
+    --font-size-title:20px;
+    --font-size-section-title:40px;
+    --margin-primary:20ps;
+    --padding-primary:20px;
+}
+.navbar{
+    height: 120 px;
+}
+.navbar .levl-nav-link.nav-link{
+    padding:20px ;
+    margin-right: 50px;
+}
+.navbar .levl-nav-link.nav-link:hover{    
+    background-color: var(--color-primary);
+    color: aliceblue;
+}
+
+.hero{
+    background: url('./images/flowers-276014_1280.jpg') no-repeat center center /cover;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
